@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../Header";
 import { BG_IMG_URL } from "../../utils/constant";
+import MovieList from "./MovieList";
 
 const VisitPage = () => {
   return (
@@ -25,6 +26,7 @@ const VisitPage = () => {
           </div>
         </div>
       </div>
+      <MovieList />
     </div>
   );
 };

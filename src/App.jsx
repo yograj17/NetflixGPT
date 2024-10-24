@@ -1,10 +1,10 @@
 import React from "react";
-import Header from "./component/Header";
+import VisitPage from "./component/Visit-Section/VisitPage";
 
 const App = () => {
   return (
     <div className="h-screen w-screen">
-      <Header />
+      <VisitPage />
     </div>
   );
 };

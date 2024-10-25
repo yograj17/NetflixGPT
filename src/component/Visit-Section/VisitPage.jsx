@@ -3,6 +3,8 @@ import Header from "../Header";
 import { BG_IMG_URL } from "../../utils/constant";
 import { CgGames } from "react-icons/cg";
 import MovieList from "./MovieList";
+import Option from "./Options";
+import Question from "./Question";
 
 const VisitPage = () => {
   return (
@@ -28,6 +30,8 @@ const VisitPage = () => {
         </div>
       </div>
       <MovieList />
+      <Option />
+      <Question />
     </div>
   );
 };

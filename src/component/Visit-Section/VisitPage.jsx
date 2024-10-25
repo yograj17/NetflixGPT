@@ -5,6 +5,7 @@ import { CgGames } from "react-icons/cg";
 import MovieList from "./MovieList";
 import Option from "./Options";
 import Question from "./Question";
+import Footer from "./Footer";
 
 const VisitPage = () => {
   return (
@@ -32,6 +33,7 @@ const VisitPage = () => {
       <MovieList />
       <Option />
       <Question />
+      <Footer/>
     </div>
   );
 };

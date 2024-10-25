@@ -11,7 +11,7 @@ const MovieList = () => {
         <select
           id="dropdown"
           name="options"
-          class="mt-3 h-10 block w-full  px-2 border bg-white bg-opacity-10 text-white rounded-md "
+          className="mt-3 h-10 block w-full  px-2 border bg-white bg-opacity-10 text-white rounded-md "
         >
           <option value="option1" className="text-black">
             India
@@ -26,7 +26,7 @@ const MovieList = () => {
         <select
           id="dropdown"
           name="options"
-          class="mt-3 h-10 block w-full  px-2 border bg-white bg-opacity-10 text-white rounded-md "
+          className="mt-3 h-10 block w-full  px-2 border bg-white bg-opacity-10 text-white rounded-md "
         >
           <option value="option1" className="text-black">
             Movies

@@ -3,9 +3,9 @@ import { optionData } from "../../utils/optionData";
 
 const Options = () => {
   return (
-    <div className="bg-black text-white py-1">
+    <div className="bg-black text-white ">
       <div className=" text-xl font-semibold mx-5">More reasons to join</div>
-      <div className="mx-5 my-4 flex flex-col items-center gap-3">
+      <div className="mx-5 py-4 flex flex-col items-center gap-3">
         {optionData.map((key, index) => (
           <div
             className="h-56 w-80 rounded-3xl p-6 relative bg-gradient-to-br from-blue-500/40 via-pink-500/30 to-purple-500/20"

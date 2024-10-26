@@ -19,7 +19,7 @@ const SignInPage = () => {
   return (
     <div className="bg-black text-white ">
       <div className=" h-24  flex px-5 items-center ">
-        <NavLink className="">
+        <NavLink to={"/"} className="">
           <img src={LOGO_URL} className="h-14 w-32" />
         </NavLink>
       </div>

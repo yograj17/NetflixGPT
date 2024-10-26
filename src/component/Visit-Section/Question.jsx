@@ -4,8 +4,7 @@ import { FaChevronDown } from "react-icons/fa";
 import { RxCross2 } from "react-icons/rx";
 
 const Question = () => {
-  let [Arrow, setArrow] = useState(new Array(5).fill(false));
-  // console.log(Arrow);
+  let [Arrow, setArrow] = useState(new Array(6).fill(false));
 
   let clickHandler = (index) => {
     setArrow((prevArrow) => {
@@ -18,7 +17,7 @@ const Question = () => {
   };
 
   return (
-    <div className="bg-black border-white text-white py-1">
+    <div className="bg-black border-white text-white py-4">
       <div className=" text-xl font-semibold mx-5">
         Frequently Asked Questions
       </div>

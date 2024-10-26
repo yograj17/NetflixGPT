@@ -6,8 +6,9 @@ import MovieList from "./MovieList";
 import Option from "./Options";
 import Question from "./Question";
 import Footer from "./Footer";
+import { NavLink } from "react-router-dom";
 
-const VisitPage = () => {
+export const VisitPage = () => {
   return (
     <div className="scroll-smooth">
       <div
@@ -24,18 +25,20 @@ const VisitPage = () => {
             <div className="text-lg font-medium flex justify-center">
               Starts at ₹149. Cancel at any time.
             </div>
-            <div className="flex justify-center bg-red-600 h-12 w-60 gap-2 m-auto items-center text-lg mt-6  font-semibold rounded-3xl cursor-pointer">
-              Games <CgGames className="h-7 w-9" />
-            </div>
+            <NavLink to={"/game"} className=" h-12 w-60 m-auto mt-6">
+              <div className="flex justify-center bg-red-600 h-12 w-60 gap-2 m-auto items-center text-lg   font-semibold rounded-3xl cursor-pointer">
+                Games <CgGames className="h-7 w-9" />
+              </div>
+            </NavLink>
           </div>
         </div>
       </div>
       <MovieList />
       <Option />
-      <Question />
-      <Footer/>
+      <Question /> 
+      <Footer />
     </div>
   );
 };
 
-export default VisitPage;
+// export default VisitPage;
